@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Bhavin789/SQSExample/issues"
   },
-  "homepage": "https://github.com/Bhavin789/SQSExample#readme"
+  "homepage": "https://github.com/Bhavin789/SQSExample#readme",
+  "dependencies": {
+    "aws-sdk": "^2.585.0"
+  }
 }
