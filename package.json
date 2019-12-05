@@ -1,0 +1,22 @@
+{
+  "name": "sqsexample",
+  "version": "1.0.0",
+  "description": "This is an SQS integration with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavin789/SQSExample.git"
+  },
+  "keywords": [
+    "SQS"
+  ],
+  "author": "Bhavin Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavin789/SQSExample/issues"
+  },
+  "homepage": "https://github.com/Bhavin789/SQSExample#readme"
+}
