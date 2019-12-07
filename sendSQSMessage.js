@@ -17,7 +17,7 @@ var params = {
     }
   },
   MessageBody: "Checking up the CIH SQS Queue",
-  QueueUrl: "YOUR_SQS_QUEUE_LINK"
+  QueueUrl: "https://sqs.us-east-1.amazonaws.com/275396233496/CIHQueue"
 };
 
 sqs.sendMessage(params, function(err, data) {

@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Lambda Layer npm config",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Bhavin Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
