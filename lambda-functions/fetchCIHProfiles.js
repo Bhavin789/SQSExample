@@ -1,14 +1,9 @@
-/**
- * This is a lambda function to fetch the CIH API.
- * It actually uses the node dependecies using the lamda layers
- */
-
 const axios = require("axios");
 
 exports.handler = async event => {
+  // TODO implement
   const CIHEndpoint = "https://if.cyberintelligencehouse.com/api";
-  const attr = event.Records[0].attributes;
-  const CIHAPIKey = attr.CIHAPIKey;
+  const CIHAPIKey = "YOUR CIH API Key";
   const CIHHeaders = {
     accept: "application/json",
     "X-Api-Key": CIHAPIKey,

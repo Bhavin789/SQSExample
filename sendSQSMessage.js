@@ -6,18 +6,9 @@ var sqs = new AWS.SQS({ apiVersion: "2012-11-05" });
 
 var params = {
   DelaySeconds: 10,
-  MessageAttributes: {
-    CIHAPIKey: {
-      DataType: "String",
-      StringValue: "dbehudgewdhewdhidewgd3276e28etf643er43deh3d38d"
-    },
-    domain: {
-      DataType: "String",
-      StringValue: "flipkart"
-    }
-  },
-  MessageBody: "Checking up the CIH SQS Queue",
-  QueueUrl: "https://sqs.us-east-1.amazonaws.com/275396233496/CIHQueue"
+  MessageAttributes: {},
+  MessageBody: "Fetch CIH profile count",
+  QueueUrl: "YOUR SQS QUEUE"
 };
 
 sqs.sendMessage(params, function(err, data) {
