@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Bhavin789/SQSExample#readme",
   "dependencies": {
-    "aws-sdk": "^2.585.0"
+    "aws-sdk": "^2.814.0"
   }
 }
